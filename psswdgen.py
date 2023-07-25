@@ -31,7 +31,9 @@ credits = ("""                             _____________________________________
 print(Fore.BLUE + logo)
 print(Fore.YELLOW + credits)
 
-length = input(Fore.RED + "Choose your password length: ")
+length = input(Fore.RED + "[?] Choose your password length: ")
+
+passwords = input(Fore.MAGENTA + "[?] How many passwords you want to generate?: ")
 
 lower_case = "abcdefghijklmnopqrtsuvwxyz"
 upper_case = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -41,12 +43,13 @@ symbol = "!$%&/()=@#€[]{}+-*_"
 
 ans = lower_case + upper_case + num + symbol
 
-password = ''.join(secrets.choice(ans) for i in range(int(length)))
 
-Fore.GREEN
-print(Fore.GREEN + "Your Generated Password is: " + password)
 
-name = "Thanks for using this Password Generator, now you can close this window."
+for i in range(int(passwords)):
+    password = ''.join(secrets.choice(ans) for i in range(int(length)))
+    print(Fore.GREEN + "[!] Your Generated Password is: " + password)
+
+name = "[*] Thanks for using this Password Generator, now you can close this window."
 
 for l in name:
     sys.stdout.flush()
