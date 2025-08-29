@@ -10,4 +10,4 @@ or just download it as zip
 
 3. python psswdgen.py
 
-![image](https://github.com/44ZHelter/Password-Generator/assets/95748889/14719555-29b7-4de5-a8cf-cd945138a854)
+<img width="1063" height="614" alt="Screenshot from 2025-08-29 16-53-00" src="https://github.com/user-attachments/assets/c495585e-cb6c-4ad1-8f44-e498dadbf3bb" />
