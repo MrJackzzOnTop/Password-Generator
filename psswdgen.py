@@ -5,7 +5,7 @@ colorama.init()
 import sys,time
 import os
 
-os.system('title Password Generator By 4ZHelter')
+os.system('title Password Generator By MrJackzzOnTop')
 
 if sys.platform == 'win32':
    os.system("cls")
@@ -58,4 +58,5 @@ for l in name:
     time.sleep(0.1)
 
 input()
+
 
