@@ -3,7 +3,7 @@ A Simple Password Generator coded by me in Python
 
 Steps:
 
-1. git clone https://github.com/44ZHelter/Password-Generator
+1. git clone https://github.com/MrJackzzOnTop/Password-Generator
 or just download it as zip
 
 2. python main.py
